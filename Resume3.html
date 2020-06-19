@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="css_index/Resume3.css">
+</head>
+<body>
+    <!-- 页眉区header ，页眉区包含logo区（logo区是链接，点击跳转到首页）和导航区nav-->
+    <section id="index_header">
+        <!-- 页眉区logo处盒子 -->
+        <section id="logo">
+            <!-- ************************************姓名图章************************************ -->
+            <a href="index.html"target="_self" class="a1"><img class="img_1" src="img_index/name_logo.png" alt="浏览器开小差了，请重新加载噢！"></a> 
+        </section>
+        <!-- end of logo -->
+        <!-- 页眉区导航盒子 -->
+        <nav>
+            <section id="nav1"><a href="index.html" class="a2">首页<br>Home</a></section>
+            <section id="nav2"><a href="resume1.html" class="a2">个人简历<br>Resume</a></section>
+            <section id="nav3"><a href="Planning.html" class="a2">职业规划<br>Planning</a></section>
+            <section id="nav4"><a href="Recommend.html" class="a2">资源推荐<br>Recommend</a></section>
+            <section id="nav5"><a href="Status.html" class="a2">生活动态<br>Status</a></section>
+        </nav>
+        <!-- end of nav -->
+    </section>
+    <!-- end of header -->
+
+    <!-- 装大的“山”背景图，背景图中间有一块黑色区域，用于呈现本页面文字简介 -->
+    <section class="photo_show">
+        <!-- 中间黑色区域部分 -->
+        <section class="flag">
+            <!-- 文字部分区域 -->
+            <section class="flag_inner">
+                <span class="span1">周霁个人简历</span> 
+                <span class="span2">The resume of ZhouJi</span>
+            </section>
+            <!-- end of flag_inner -->
+        </section>
+        <!-- end of flag -->
+    </section>
+    <!-- end of photo_show -->
+
+
+
+    <!-- 个人简历区index_part1，此区域中有一个inner,用于放置内容，此区域居中，区域的宽、高固定 ，inner中设
+    左右两列，分别由左边的边栏导航栏和右边的个人信息表格构成-->
+    <section id="index_part1">
+        <!-- 用于放置内容的区域 -->
+        <section id="inner">
+            <!-- inner_left是左边的导航侧栏 -->
+            <section id="left">
+                <a href="Resume1.html" class="a3">个人基本资料</a>
+                <a href="Resume2.html" class="a3">个人经历</a>
+                <a href="Resume3.html" class="a3">个人荣誉</a>
+            </section>
+            <!-- end of inner_left -->
+            <!-- 右侧装表格的区域 -->
+            <section id="right">
+                <!-- 所获荣誉表格 -->
+                <table class="table1">
+                    <tr class="tr1">
+                        <th class="th11">Hornor</th>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="td21" rowspan="3">学术科研</td>
+                        <td class="td22">2019年参与的暑期社会实践项目获校级立项并结项。</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="td22">2019年参与的博文项目于信息与安全工程学院立项。</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="td22">2020年参与的大创项目立项。</td>
+                    </tr>
+
+                    <tr class="tr2">
+                        <td class="td21" rowspan="3">综合奖项</td>
+                        <td class="td22">2019年荆门市青少年“希望家园”暑期班“优秀志愿者”</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="td22">2020年校级优秀团学骨干</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="td22">2020年校级优秀志愿者（军运会类）</td>
+                    </tr>
+                </table>
+                <!-- end of table1 -->
+            </section>
+        </section>
+        <!-- end of section#inner -->
+    </section>
+    <!-- end of index_part1 -->
+
+    
+     <!-- 页脚部分，此区域内部有contact,用于存放内容，contact内部由contact_title("Contact Me标题")
+    及gmail、QQ、twitter三个具体的联系方式的介绍盒子构成 -->
+    <footer>
+        <!-- 页脚联系方式介绍框 -->
+        <section id="contact">
+            <!-- 页脚标题栏 -->
+            <section class="contact_title">
+                <span class="span3" style="color: rgba(240, 226, 157, 0.884);">CONTACT ME</span><!-- color: rgba(243, 224, 128, 0.884); -->
+                
+            </section>
+            <!-- end of contact_title -->
+            <br>
+            <!-- 装gmail邮箱相关信息的盒子 -->
+            <section class="contact1">
+                <img class="img_5" src="img_index/google.png" alt="浏览器开小差了，请重新加载噢！" >
+                <span class="span4" style="color: aliceblue;">zhoumoon9@gmail.com</span>
+            </section>
+            <!-- end of contact1 -->
+            <!-- 装QQ相关信息的盒子 -->
+            <section class="contact2">
+                <img class="img_5" src="img_index/QQ.png" alt="浏览器开小差了，请重新加载噢！" >
+                <img src="img_index/QQ_photo.jpg" alt="" class="img_6">
+            </section>
+            <!-- end of contact2 -->
+            <!-- 装twitter相关信息的盒子 -->
+            <section class="contact3">
+                <img class="img_5" src="img_index/twitter.png" alt="浏览器开小差了，请重新加载噢！" >
+                <span class="span4" style="color: aliceblue;">@moon74923843</span>
+            </section>
+            <!-- end of contact3 -->
+        </section>
+    </footer>
+    <!-- end of footer -->
+</body>
+</html>

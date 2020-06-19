@@ -1,0 +1,283 @@
+body{
+    /* background-color: blueviolet; */
+    background: url(../img_index/chinastyle.jpg);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a.a1{
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+    outline: none;
+}
+
+a.a2{
+    margin: 0 auto;
+    width: 120px;
+    height: 60px;
+    display: inline-block;
+    font-weight: normal;
+    font-family: 微软雅黑;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+p.p5{
+    float: left;
+    width: 442px;
+    height: 20px;
+    margin: 0 0 0 0;
+    font-family: "微软雅黑";
+}
+
+img.img_1{
+    width: 200px;
+    height: 110px;
+}
+
+img.img_3{
+    height: 600px;
+    width: 410px;
+    margin-left: 125px;
+}
+img.img_4{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+img.img_5{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+img.img_6{
+    width: 60px;
+    height: 60px;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+span.span1{
+    width: 630px;
+    height: 92px;
+    font-family: "微软雅黑";
+    font-size: 70px;
+    /* color: white; */
+    margin: auto auto 45px auto;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+span.span2{
+    width: 335px;
+    height: 33px;
+    /* background-color: yellow; */
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+
+span.span3{
+    margin: auto;
+}
+
+span.span4{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    margin: 30px auto 30px auto;
+    text-align: center;
+    display: block;
+    /* background-color: aqua; */
+}
+
+/* 页眉区css */
+/* ************************************************************************************ */
+section#index_header{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 120px;
+    /* background-color: whitesmoke; */
+    /* margin: 3px; */
+    background: url(../img_index/chinastyle1.jpg);
+    /* background-repeat: ; */
+
+    /* 为盒子设置背景色 ******************************************************************/
+    background-size: auto;
+}
+section#logo{
+    /* background-color: darksalmon; */
+    width: 200px;
+    height: 110px;
+    /* border: 1px solid green; */
+    margin: 5px 0 5px 80px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+
+/* 右边导航栏 */
+nav{
+    /* background-color: burlywood; */
+    width: 750px;
+    height: 120px;
+    margin-right: 100px;
+    text-align: center;
+    float: right;
+}
+
+section#nav1{
+    width: 150px;
+    height: 120px;
+    float: left;
+    /* background-color: gray; */
+    text-align: center;
+    position: relative;
+    
+}
+section#nav2{
+    width: 150px;
+    height: 120px;
+    float: left;
+    /* background-color: greenyellow; */
+    text-align: center;
+}
+section#nav3{
+    width: 150px;
+    height: 120px;
+    float: left;
+    /* background-color: hotpink; */
+    text-align: center;
+}
+section#nav4{
+    width: 150px;
+    height: 120px;
+    float: left;
+    /* background-color: indigo; */
+    text-align: center;
+}
+section#nav5{
+    width: 150px;
+    height: 120px;
+    float: left;
+    /* background-color: lightgreen; */
+    text-align: center;
+}
+/* ************************************************************************************ */
+
+
+/* 个人部分简介 */
+/* ************************************************************************************ */
+/* 最宽的盒子 */
+section#index_part1{
+    /* background-color: coral; */
+    padding-top: 20px;
+    width:100%;
+    height: 1050px;
+    /* display: block; */
+    /* background: url(../img_index/poto3.jpg); */
+}
+section#inner{
+    /* background-color: gray; */
+    height: 1050px;
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: teal; */
+}
+
+/* ************************************************************************************ */
+
+section.photo_show{
+    width: 100%;
+    height: 700px;
+    /* background-color: blueviolet; */
+    background: url(../img_index/colorful.jpg);
+    background-size: 100%  700px;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.flag{
+    width: 780px;
+    height: 340px;
+    text-align: center;
+    background: url(../img_index/bg3.png);
+    /* color: rgb(102, 102, 102); */
+    display: flex;
+}
+
+section.flag_inner{
+    width: 780px;
+    height: 150px;
+    margin-top: 70px;
+    /* margin-bottom: 50px; */
+    /* background-color: yellowgreen; */
+}
+
+
+/* 页脚部分内容 */
+footer{
+    border-top: tan;
+    background: url(../img_index/fenbi.jpg);
+    width: 100%;
+    height: 230px;
+}
+section#contact{
+    /* background-color: fuchsia; */
+    /* padding-top: 30px; */
+    height: 230px;
+    width: 50%;
+    margin:0 auto;
+    background-repeat: repeat-y;
+}
+
+section.contact_title{
+    background: url(../img_index/biankuang.jpg);
+    background-size: 300px 60px;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    display: flex;
+}
+
+section.contact1{
+    width: 33%;
+    height: 140px;
+    float: left;
+    /* background-color: yellowgreen; */
+}
+section.contact2{
+    width: 34%;
+    height: 140px;
+    float: left;
+    /* background-color: blueviolet; */
+}
+section.contact3{
+    width: 33%;
+    height: 140px;
+    float: left;
+    /* background-color: darkorange; */
+}
+
+/* ************************************************************************************ */
